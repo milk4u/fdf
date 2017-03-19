@@ -12,7 +12,7 @@
 
 #include <fcntl.h>
 #include <stdio.h>
-#include "point.h"
+#include "../includes/point.h"
 
 void	print_map(t_point **map)
 {

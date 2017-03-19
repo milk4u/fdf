@@ -13,9 +13,6 @@
 #ifndef POINT_H
 # define POINT_H
 
-# include "./libft.h"
-# include "./get_next_line.h"
-
 typedef struct	s_point
 {
 	int			x;
@@ -23,6 +20,7 @@ typedef struct	s_point
 	int			z;
 }				t_point;
 
+void			init_point(t_point *point, int x, int y, int z);
 t_point			**read_map_from_file(int fd);
 
 #endif

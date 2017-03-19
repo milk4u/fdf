@@ -79,7 +79,9 @@ SRC = 	ft_abs.c \
 		ft_lstmap.c \
 		ft_lstcount.c \
 		ft_lstrev.c \
-		ft_lst_push_back.c
+		ft_lst_push_back.c \
+		free_list.c \
+		array_of_char_size.c
 OBJ = $(SRC:.c=.o) 
 CFLAGS = -c -Wall -Wextra -Werror
 
