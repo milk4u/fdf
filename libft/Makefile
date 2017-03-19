@@ -79,14 +79,14 @@ SRC = 	ft_abs.c \
 		ft_lstmap.c \
 		ft_lstcount.c \
 		ft_lstrev.c \
-		ft_list_push_back.c
+		ft_lst_push_back.c
 OBJ = $(SRC:.c=.o) 
 CFLAGS = -c -Wall -Wextra -Werror
 
 all: $(NAME)
 
 $(NAME):
-	gcc $(CFLAGS) $(SRC) -I libft.h
+	gcc $(CFLAGS) $(SRC) 
 	ar rc $(NAME) $(OBJ)
 	ranlib $(NAME)
 
